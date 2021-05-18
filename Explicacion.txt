@@ -1,0 +1,7 @@
+Por lo que entendí del programa, lo que hacen todos esos comandos es tomar cierto control sobre la placa
+y a través de las pruebas marcar si todo está en orden. 
+Por ejemplo con el loop encontramos que cada 10 segundos se están arrojando mensajes del estado
+en el que se encuentra la placa y así empiezan comando como el inicio de la placa para establecer
+comunicación, el comando de reseteo, el envío de datos al monitor serial del ESP, 
+la muestra del estado en el monitor seria, y una opción condicional si es que no responde la placa
+para que en el monitor de serie se muestre el error y se pueda reestablecer la comunicación.
